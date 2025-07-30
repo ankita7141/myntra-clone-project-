@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.shop_navbar {
+    width: 100%;
+    height: 70px;
+    background-color: #f4dddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.shop a li {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(27, 26, 26);
+    font-size: 18px;
+    margin: 0 25px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.shop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 50px;
+}
+
+.secure_content {
+    display: flex;
+    align-items: space-evenly;
+    justify-content: center;
+    flex-direction: row;
+    padding: 20px;
+    margin: 50px;
+}
+
+.secure_content h3 {
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.shop_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+.info {
+    margin-top: 20PX;
+}
+
+.info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 40px;
+}
+
+.info h5 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    padding: 10px;
+    margin-left: 40px;
+    color: rgba(153, 148, 148, 0.99);
+}
+
+.add button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    border-radius: 20px;
+    filter: drop-shadow(0 2px 4px rgb(89, 9, 50));
+}
+
+.method {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 20px;
+    margin: 50px;
+}
+
+.method img {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    filter: drop-shadow(0 2px 4px rgb(89, 9, 50));
+}
+
+.method span {
+    font-size: 18px;
+    color: rgb(104, 23, 23);
+    font-weight: 500;
+    margin-left: 75px;
+}
