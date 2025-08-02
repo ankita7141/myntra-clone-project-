@@ -1,0 +1,80 @@
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background-color: #f4dddd;
+        display: flex;
+        height: 70px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+    }
+    
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .navbar a {
+        text-decoration: none;
+        color: rgb(27, 26, 26);
+        font-size: 18px;
+        margin: 0 25px;
+        font-weight: 500;
+    }
+    
+    .navbar a:hover {
+        Border-bottom: 2px solid #653063;
+        padding-bottom: 30px;
+    }
+    
+    .category_item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin: 50px;
+    }
+    
+    .category_card {
+        width: 400px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.1));
+        object-fit: contain;
+        padding: 20px;
+    }
+    
+    .category_card img {
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+    
+    .sell li {
+        list-style: none;
+        text-decoration: none;
+    }
+    
+    .sell li strike {
+        color: rgba(0, 0, 0, 0.501);
+    }
+    
+    .sell button {
+        background-color: pink;
+        border-radius: 20px;
+        padding: 10px 20px;
+        border: none;
+    }

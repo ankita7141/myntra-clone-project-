@@ -4,6 +4,19 @@
         box-sizing: border-box;
     }
     
+    header {
+        background-color: whitesmoke;
+        display: flex;
+        height: 80px;
+        justify-content: start;
+        align-items: flex-start;
+    }
+    
+    .logo a img {
+        width: 100%;
+        height: 100%;
+    }
+    
     .profile_card {
         width: 400px;
         height: 500px;
